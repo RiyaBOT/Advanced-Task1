@@ -101,7 +101,7 @@ namespace CartApi.Controllers
                                      autoDelete: false,
                                      arguments: null);
 
-                string message = "Order_created Cart Id" +cartItem.Cart_ID + "Product_ID" + cartItem.Product_ID + "Order ID"+cartItem.Order_ID + "Product Prices"+ cartItem.Product_Prices + "Total" +cartItem.Total +"Order status" +cartItem.Order_Status;
+                string message = "Order_created Cart Id" + cartItem.Cart_ID + "Product_ID" + cartItem.Product_ID + "Order ID"+cartItem.Order_ID + "Product Prices" + cartItem.Product_Prices + "Total" +cartItem.Total +" Order status" +cartItem.Order_Status;
                 
                 var body = Encoding.UTF8.GetBytes(message);
 
