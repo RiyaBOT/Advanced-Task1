@@ -13,6 +13,6 @@ namespace CartApi.Models
         {
         }
 
-        public DbSet<CartItem> TodoItems { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
     }
 }
